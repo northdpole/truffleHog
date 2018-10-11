@@ -16,10 +16,9 @@ import stat
 from pprint import pprint
 
 from git import Repo, RemoteProgress
-from regexChecks import regexes
 from git import Repo
 from git import NULL_TREE
-from truffleHogRegexes.regexChecks import regexes
+from regexChecks import regexes
 
 
 def main():

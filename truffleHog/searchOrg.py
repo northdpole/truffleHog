@@ -8,6 +8,9 @@ import shutil
 import time
 from pprint import pprint
 
+import sys
+
+import os
 from github import Github
 
 from truffleHog import find_strings, del_rw
@@ -296,5 +299,6 @@ def analyze_org_repos(parallelism=1, options=None):
                    msg="Trufflehog execution complete")
 
 
+sys.path.append(os.path.realpath(__file__))
 if __name__ == "__main__":
     main()
