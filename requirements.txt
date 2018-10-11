@@ -5,7 +5,6 @@ gitdb2==2.0.4
 GitPython==2.1.11
 idna==2.7
 jarjar==3.1
-pygit==0.1
 PyGithub==1.43.2
 PyJWT==1.6.4
 requests==2.19.1
